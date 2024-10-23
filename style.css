@@ -30,9 +30,10 @@ h1{
 .countdown:nth-of-type(4) { animation-delay: 3s; }
 .countdown:nth-of-type(5) { animation-delay: 4s; }
 .bomba {
-    position: relative; /* Needed for positioning */
-    animation: fall 1s forwards; /* Apply the fall animation */
-    top: -300px; /* Start above the view */
+    position: absolute; 
+    animation: fall 1s forwards, flash 0.5s infinite alternate;
+    top: -300px;
+    z-index: 2;
 }
 
 @keyframes fall {
@@ -44,4 +45,19 @@ h1{
         top: 0;
         opacity: 1;
     }
+}
+@keyframes flash {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes shake{
+    0% { transform: translate(0); }
+    25% { transform: translate(-5px, 0); }
+    50% { transform: translate(5px, 0); }
+    75% { transform: translate(-5px, 0); }
+    100% { transform: translate(0); }
 }
