@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     margin:0;
     text-align:center;
-    animation: flash 0.5s ease-in-out forwards;
+    animation: flash 0.5s ease-in-out forwards 5s;
 }
 h1{
     font-size: 30px;
