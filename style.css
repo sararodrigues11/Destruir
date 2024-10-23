@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     margin:0;
     text-align:center;
+    animation: flash 0.5s ease-in-out forwards;
 }
 h1{
     font-size: 30px;
@@ -65,4 +66,8 @@ h1{
     to {
         opacity: 0;
     }
+}
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
 }
