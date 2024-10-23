@@ -31,8 +31,8 @@ h1{
 .countdown:nth-of-type(5) { animation-delay: 4s; }
 
 .bomba {
-    position: absolute; 
-    animation: fall 1s forwards, shake 0.5s ease-in-out 1s infinite;
+    position: relative; 
+    animation: fall 1s forwards, shake 0.5s ease-in-out 1s infinite; /* Shake starts after fall */
     top: -300px;
     z-index: 2;
 }
