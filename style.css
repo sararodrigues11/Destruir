@@ -24,8 +24,8 @@ h1{
         opacity: 1;
     }
 }
-.countdown:nth-child(1) { animation-delay: 0s; }
-.countdown:nth-child(2) { animation-delay: 1s; }
-.countdown:nth-child(3) { animation-delay: 2s; }
-.countdown:nth-child(4) { animation-delay: 3s; }
-.countdown:nth-child(5) { animation-delay: 4s; }
+.countdown:nth-of-type(1) { animation-delay: 0s; }
+.countdown:nth-of-type(2) { animation-delay: 1s; }
+.countdown:nth-of-type(3) { animation-delay: 2s; }
+.countdown:nth-of-type(4) { animation-delay: 3s; }
+.countdown:nth-of-type(5) { animation-delay: 4s; }
