@@ -11,7 +11,7 @@ body{
     text-align:center;
     animation: flash 0.5s ease-in-out forwards 5s, 
     tilt 0.5s ease-in-out forwards 5.5s, 
-    fadeOut ease-in-out forwards 6s infinite;
+    fadeOut 0.5s ease-in-out forwards 6s;
 }
 h1{
     font-size: 30px;
