@@ -11,5 +11,14 @@ body{
     text-align:center;
 }
 h1{
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 2opx;
+}
+.countdown{
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframe fadeIn {
+    opacity: 1;
 }
