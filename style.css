@@ -29,3 +29,19 @@ h1{
 .countdown:nth-of-type(3) { animation-delay: 2s; }
 .countdown:nth-of-type(4) { animation-delay: 3s; }
 .countdown:nth-of-type(5) { animation-delay: 4s; }
+.bomba {
+    position: relative; /* Needed for positioning */
+    animation: fall 1s forwards; /* Apply the fall animation */
+    top: -300px; /* Start above the view */
+}
+
+@keyframes fall {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
