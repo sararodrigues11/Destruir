@@ -1,7 +1,7 @@
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: greenyellow;
-    background-color: black;
+    background-color: rgb(95, 92, 92);
     display: flex;
     flex-direction: column;
     justify-content: center;
