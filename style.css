@@ -35,7 +35,7 @@ h1{
     animation: 
         fall 1s forwards, 
         shake 0.5s ease-in-out 1s 3 forwards, 
-        disappear 0.5s ease-in forwards 2s;
+        disappear 0.5s ease-in forwards 4s;
     top: -300px;
     z-index: 2;
 }
