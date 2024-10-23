@@ -32,19 +32,19 @@ h1{
 
 .bomba {
     position: absolute; 
-    animation: fall 1s forwards, shake 0.5s ease-in-out 1s infinite; /* Shake starts after fall */
-    top: -300px; /* Start above the viewport */
+    animation: fall 1s forwards, shake 0.5s ease-in-out 1s infinite;
+    top: -300px;
     z-index: 2;
 }
 
 @keyframes fall {
     from {
-        top: -300px; /* Starting position */
-        opacity: 0; /* Start invisible */
+        top: -300px;
+        opacity: 0;
     }
     to {
-        top: 100px; /* End position */
-        opacity: 1; /* End visible */
+        top: 100px;
+        opacity: 1;
     }
 }
 
