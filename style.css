@@ -9,7 +9,9 @@ body{
     min-height: 100vh;
     margin:0;
     text-align:center;
-    animation: flash 0.5s ease-in-out forwards 5s, tilt 0.5s ease-in-out forwards 5.5s, fadeOut 0.5s ease-in-out forwards 6s;
+    animation: flash 0.5s ease-in-out forwards 5s, 
+    tilt 0.5s ease-in-out forwards 5.5s, 
+    fadeOut 0.5s ease-in-out forwards 6s infinite;
 }
 h1{
     font-size: 30px;
