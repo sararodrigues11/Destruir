@@ -34,8 +34,8 @@ h1{
     position: relative; 
     animation: 
         fall 1s forwards, 
-        shake 0.5s ease-in-out 1s forwards, 
-        disappear 0.5s ease-in forwards 1.5s;
+        shake 0.5s ease-in-out 1s 3 forwards, 
+        disappear 0.5s ease-in forwards 2s;
     top: -300px;
     z-index: 2;
 }
