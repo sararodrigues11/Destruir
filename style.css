@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     margin:0;
     text-align:center;
-    animation: flash 0.5s ease-in-out forwards 5s;
+    animation: flash 0.5s ease-in-out forwards 5s, tilt 0.5s ease-in-out forwards 5.5s;
 }
 h1{
     font-size: 30px;
@@ -70,4 +70,9 @@ h1{
 @keyframes flash {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
+}
+@keyframes tilt {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
 }
