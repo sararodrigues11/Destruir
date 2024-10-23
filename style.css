@@ -32,7 +32,10 @@ h1{
 
 .bomba {
     position: relative; 
-    animation: fall 1s forwards, shake 0.5s ease-in-out 1s forwards, disappear 0.5s ease-in forwards 1.5s;
+    animation: 
+        fall 1s forwards, 
+        shake 0.5s ease-in-out 1s forwards, 
+        disappear 0.5s ease-in forwards 1.5s
     top: -300px;
     z-index: 2;
 }
@@ -53,4 +56,13 @@ h1{
     25% { transform: translate(-5px, 0); }
     50% { transform: translate(5px, 0); }
     75% { transform: translate(-5px, 0); }
+}
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }
